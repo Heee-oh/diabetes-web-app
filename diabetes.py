@@ -76,5 +76,6 @@ def lab():
     return render_template('prediction.html', form=form)
 
 # 앱 실행
-if __name__ == '__main__':
-    app.run()
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 10000))  # Render가 PORT 환경변수 설정함
+    app.run(host="0.0.0.0", port=port)
