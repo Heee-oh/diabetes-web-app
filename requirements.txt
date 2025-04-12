@@ -54,9 +54,8 @@ six==1.17.0
 tensorboard==2.19.0
 tensorboard-data-server==0.7.2
 tensorflow==2.19.0
-tensorflow-cpu==2.13.0
-tensorflow-estimator==2.13.0
-tensorflow-intel==2.13.0
+tensorboard==2.19.0
+tensorboard-data-server==0.7.2
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==3.0.1
 threadpoolctl==3.6.0
